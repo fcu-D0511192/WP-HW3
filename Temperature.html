@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="utf-8">
+		<title>Celsius to Fahrenheit</title>
+		<script type = "text/javascript">
+			var Celsius;
+			//var Fahrenheit;
+			function Fahrenheit(C) {
+				Fahrenheit = 1.8 * C + 32;
+				return Fahrenheit;
+			}
+			Celsius = window.prompt("請輸入攝氏(Celsius)溫度");
+			Celsius = parseInt(Celsius);//change to int
+			//Fahrenheit = (9/5) * Celsius + 32;
+			//Celsius = (Fahrenheit - 32) * (5/9)
+			document.writeln(Fahrenheit(Celsius));			
+		</script>
+	</head>
+	<body></body>
+</html>
